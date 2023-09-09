@@ -2,6 +2,13 @@
 
 <addon id="plugin.video.vtest" name="My First Add-on Testing" version="1.1.1" provider-name="kokobarasi">
 	<requires>
+	    <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="inputstream.adaptive" />
+		<import addon="script.module.unidecode" />
+        <import addon="script.module.inputstreamhelper" />
+		<import addon="inputstream.ffmpegdirect" />
+		<import addon="script.module.simplejson" />
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.beautifulsoup4"     version="4.9.3"/>
 		<import addon="script.module.requests"           version="2.31.0"/>
