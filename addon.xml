@@ -2,7 +2,7 @@
 
 <addon id="plugin.video.vtest" name="My First Add-on Testing" version="1.1.1" provider-name="kokobarasi">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.beautifulsoup4" version="4.9.1"/>
 		<import addon="script.module.requests"       version="2.13.0"/>
 	</requires>
@@ -13,8 +13,8 @@
 		<summary>Stream Movies in Kodi.</summary>
         <description>Add-on for streaming adult content in Kodi.</description>
 		<assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
 	</extension>
 </addon>
